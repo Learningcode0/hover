@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> <MEnu></MEnu></title>
+    <style>
+        body { text-align: center }
+        div.container {
+            width: 400px;
+            margin: 0 auto;
+        }
+        .love { font-size: 4em; }
+        ul li {
+            list-style-type: none;
+            border: 1px solid #000;
+            padding: 1rem;
+            margin: .5rem;
+         }
+        ul li a {
+            text-decoration: none;
+            color: #000;
+        }
+        ul li a:hover {
+            text-decoration: hover;
+        }
+        .now{
+            color: rgb(20, 12, 12);
+        }
+        .now:hover{
+            transition: 2ms;
+           color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="/">Home</a><!-- | <a href="/about">About this page --></a>
+    </header>
+    <div class="now">
+    HIRE ME
+</div>
+
+
+
+<h1>HOVER OVER HIRE ME ! <strong>:)</strong></h1>
+<p>#BLACK & yellow</p>
+</body>
+</html>
